@@ -39,6 +39,20 @@
 		}
       }
 	});
+	$('.vessel-list').owlCarousel({
+		items:1,
+		loop:true,
+		margin:20,
+		autoplay:true,
+		responsive:{
+			992:{
+				items:1
+			},
+			1200:{
+				items:1
+			}
+		}
+	});
 
 	var width = $(window).width();
 		$(window).resize(function() {
