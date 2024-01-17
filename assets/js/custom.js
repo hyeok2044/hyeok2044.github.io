@@ -44,6 +44,8 @@
 		loop:true,
 		margin:20,
 		autoplay:true,
+		autoplayTimeout:2500,
+		autoplaySpeed:1000,
 		responsive:{
 			992:{
 				items:1

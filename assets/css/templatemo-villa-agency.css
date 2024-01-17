@@ -750,6 +750,7 @@ Banner Style
 
 .main-banner .item-2 {
   background-image: url(../images/banner-02.jpg);
+  width: 100%;
 }
 
 .main-banner .item-3 {
