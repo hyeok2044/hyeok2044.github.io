@@ -42,6 +42,8 @@
 	$('.vessel-list').owlCarousel({
 		items:1,
 		loop:true,
+		dots:true,
+		navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
 		margin:20,
 		autoplay:true,
 		autoplayTimeout:2500,
@@ -56,6 +58,14 @@
 		}
 	});
 
+	$('.it-banner').owlCarousel({
+		items:1,
+		loop:true,
+		margin:20,
+		autoplay:true,
+		autoplayTimeout:5000,
+		autoplaySpeed:1000,
+	});
 	var width = $(window).width();
 		$(window).resize(function() {
 		if (width > 767 && $(window).width() < 767) {

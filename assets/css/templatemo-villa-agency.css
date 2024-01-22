@@ -784,13 +784,14 @@ Banner Style
   margin-bottom: 0px;
 }
 
-.main-banner .owl-dots {
+.owl-dots {
   position: absolute;
   bottom: 60px;
   left: 20%;
 }
 
-.main-banner .owl-dots .owl-dot {
+.owl-dots .owl-dot {
+  z-index: -1;
   width: 10px;
   height: 10px;
   background-color: #fff;
@@ -799,7 +800,7 @@ Banner Style
   transition: all .5s;
 }
 
-.main-banner .owl-dots .active {
+.owl-dots .active {
   background-color: #077bbd;
 }
 
@@ -1828,3 +1829,4 @@ body {
     margin-right: 100px;
   }
 }
+
