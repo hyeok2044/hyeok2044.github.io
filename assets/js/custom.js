@@ -65,6 +65,7 @@
 		autoplay:true,
 		autoplayTimeout:5000,
 		autoplaySpeed:1000,
+		lazyLoad: true
 	});
 	var width = $(window).width();
 		$(window).resize(function() {
