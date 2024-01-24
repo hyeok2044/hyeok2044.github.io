@@ -250,40 +250,39 @@
             </div>
 
             <div class="col-lg-6">
-                <form id="contact-form" action="http://localhost:8079" method="post" enctype="multipart/form-data">
+                <form id="contact-form" action="https://kpocean.lhr.rocks/crew/src/php/AcceptRecruitingForm.php" method="post" enctype="multipart/form-data">
                     <div class="row">
-
                         <div class="col-lg-12 text-center">
                             <h2 style="height: 100px">Send Your Resume!<br></h2>
                         </div>
                         <div class="col-lg-12">
                             <fieldset>
-                                <input type="text" name="name" id="name" placeholder="Your Name... *"  required>
+                                <input type="text" name="Recruit_Name" id="name" placeholder="Your Name... *"  required>
                             </fieldset>
                         </div>
                         <div class="col-lg-12">
                             <fieldset>
-                                <input type="text" name="facebook" id="facebook" placeholder="Your Facebook Link ex.) https://www.facebook.com/KPOCEAN2022 *" required>
+                                <input type="text" name="Recruit_Facebook" id="facebook" placeholder="Your Facebook Link ex.) https://www.facebook.com/KPOCEAN2022 *" required>
                             </fieldset>
                         </div>
                         <div class="col-lg-12">
                             <fieldset>
-                                <input type="text" name="mobile" id="mobile" placeholder="Your Mobile Number ex.) 0912-123-4567 *"  required>
+                                <input type="text" name="Recruit_Mobile" id="mobile" placeholder="Your Mobile Number ex.) 0912-123-4567 *"  required>
                             </fieldset>
                         </div>
                         <div class="col-lg-12">
                             <fieldset>
-                                <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail...*" required>
+                                <input type="text" name="Recruit_Email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail...*" required>
                             </fieldset>
                         </div>
                         <div class="col-lg-12">
                             <fieldset>
-                                <input type="text" name="position" id="position" placeholder="Position ex.) Chief Officer *" required>
+                                <input type="text" name="Recruit_Position" id="position" placeholder="Position ex.) Chief Officer *" required>
                             </fieldset>
                         </div>
                         <div class="col-lg-12">
                             <fieldset>
-                                <input type="text" name="engine" id="engine" placeholder="Engine ex.) Bulk Carrier *" required>
+                                <input type="text" name="Recruit_Engine" id="engine" placeholder="Engine ex.) Bulk Carrier *" required>
                             </fieldset>
                         </div>
                         <div class="col-lg-12">
@@ -293,12 +292,12 @@
                         </div>
                         <div class="col-lg-12">
                             <fieldset>
-                                <textarea name="message" id="message" placeholder="Your Message: My Strength for an applied position"></textarea>
+                                <textarea name="Recruit_Message" id="message" placeholder="Your Message: My Strength for an applied position"></textarea>
                             </fieldset>
                         </div>
                         <div class="col-lg-12">
                             <fieldset>
-                                <button type="submit" id="form-submit" class="orange-button">Send Message</button>
+                                <button type="submit" id="form-submit" class="orange-button" name="kpocean" value="true">Send Message</button>
                             </fieldset>
                         </div>
                     </div>
