@@ -1655,7 +1655,7 @@ Contact Page Style
   margin-bottom: 15px;
 }
 
-.contact-page #contact-form input {
+.contact-page #contact-form input, select{
   width: 100%;
   height: 44px;
   border-radius: 22px;
